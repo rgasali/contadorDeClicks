@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>Contador de Clicks</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+
+  <body>
+    <h1>Contador de Clicks</h1>
+    <p>
+      Dentro de la siguiente area realice los clicks para que sean
+      contabilizados.
+    </p>
+    <div class="contador" id="divContador">Area de clickeo</div>
+    <p>
+      utilice la siguiente entrada para agregar una cantidad determinada de
+      clicks
+    </p>
+    <input
+      type="text"
+      id="InputAgregarClicks"
+      placeholder="cantidad de clicks"
+    />
+    <button class="btnAgregarClicks" id="btnAgregarClicks">agregar</button>
+    <br /><br />
+    <div class="muestra-resultado" id="divMuestraResultado"></div>
+    <script src="src/index.ts"></script>
+  </body>
+</html>
